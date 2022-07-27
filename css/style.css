@@ -1,0 +1,296 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.clase1{
+    padding-top: 80px ;
+    background-image: url(https://ungerboeckdotcomassets.blob.core.windows.net/volumes/content/Additional-Images/Catering/_1024x600_crop_center-center_82_line/622/shutterstock_645095311.webp);
+    background-size: cover;
+}
+/**
+ .clase1{
+    animation-duration: 2s;
+    animation-name: aparecer;
+}ver 
+
+
+**/
+ li a {
+    list-style: none;
+    color: white;
+}
+ nav li {
+    text-decoration: none;
+ }
+
+li a:hover {
+    color: red;
+}
+
+
+
+.clase1 h1 {
+    font-style: italic;
+    font-family: inter, sans-serif;
+}
+
+.clase1 p{
+    color: rgb(3, 3, 3);
+    font-family: 'Abril Fatface', cursiva;
+   
+}
+/*
+#grilla {
+    display: grid;
+    grid-template-areas: 
+    "clase1 clase1 clase1"
+    "salon combo sonido"
+    "galeria galeria galeria"
+    "smesa fotografia ."
+    "footer footer footer";
+     grid-template-rows: 20% 20% 20% 20% 20% ;
+     grid-template-columns: 20% auto 15% ;
+     row-gap: 20px;
+     column-gap:15px;
+
+} 
+ section#clase1 {
+    grid-area:clase1 ;
+}
+section div#salon {
+    grid-area: salon;
+}
+section div#combo {
+    grid-area: combo;
+}
+section div#sonido {
+    grid-area: sonido;
+}
+section div#galeria {
+    grid-area: galeria;
+}
+section div#smesa {
+    grid-area: smesa;
+}
+section div#fotografia {
+    grid-area: fotografia;
+
+}
+footer {
+    grid-area: footer;
+}
+#clase1{
+    justify-content: stretch;
+}
+#salon{
+    justify-content: stretch;
+}
+#combo{
+    justify-content: stretch;
+}
+#sonido{
+    justify-content: stretch;
+}
+#galeria {
+    justify-content: stretch;
+}
+#smesa{
+    justify-content: stretch;
+}
+#fotogrfia{
+    justify-content: stretch;
+}
+*/
+/**
+@media screen and (min-width: 772px) {
+#paquetes{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);   
+}
+}
+
+@media screen and (min-width: 480px) and (max-width: 770px) {
+    #paquetes {grid-template-columns: repeat(2, 1fr);
+             }
+    .clase1 {
+        width: 100vw;}
+    .fotosin {
+        width: 295px;
+        height: 250px;
+        margin-top: 50px; }
+    }
+**/
+/** @media screen and (min-width: 0px) and (max-width: 475px) {
+        #paquetes { 
+            grid-template-columns: 1fr;
+           }
+        
+    }
+*/
+.logo {
+    float: right;
+    width: 150px;
+    height: 60px; 
+}
+    
+ nav ul li {
+    display: inline;
+    font-family: 'Inter', sans-serif; 
+    height: 60px;
+    width: 100px;
+    list-style:none;
+    word-spacing: 15px;
+
+}
+
+
+header nav {
+    text-align: start;
+
+}
+
+
+ body {
+    background-color: rgb(224, 213, 198);
+    width: 100vw;
+ }
+
+ .fotosin {
+    width: 295px;
+    height: 250px;
+    margin-top: 50px;
+ }
+ #salon {
+    padding-left: 4px;
+ }
+ .nav {
+    background-image: url(https://img.freepik.com/vector-gratis/diseno-color-gris-fondo-negro-abstracto-es-claro-fondo-degradado-blanco_35947-424.jpg?w=740);
+ }
+
+header  {
+     height: 60px;
+     width: 100%;
+     border-color: black;
+     position: fixed;
+     
+}
+ footer {
+    background-color:rgb(119, 119, 119);
+    height: 30vh;
+    margin-top: 100px;
+    
+ }
+ .copy {
+    float: right;
+    
+ }
+
+ .redes {
+    text-align: center;
+ }
+ /* ------------------------------------*/
+
+ .logocontac {
+    float: right;
+    width: 150px;
+    height: 60px; 
+ }
+
+ .contacto {
+    padding-top: 100px;
+
+ }
+
+.formulario{
+    background-color: darkgray;
+    padding-top: 30px;
+}
+
+.form {
+    font-family: 'Inter', sans-serif;
+    
+}
+/* ---------------------------- */
+.mapa {
+    padding-top: 120px;
+    
+}
+/*--------------------------*/
+.servicios div {
+     display:inline-block;
+     padding-top: 70px;
+     padding-bottom:  90px; 
+     text-align: center;
+
+}
+.servicios div img {
+    width: 450px;
+    height: 350px;
+    
+}
+.servicios h3 {
+    text-decoration: darkslategrey;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 45px;
+    text-align: center;
+}
+.servicios p {
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: medium;
+    padding-top: 20px;
+}
+.servicios {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    
+}
+/*
+@media screen and (min-width: 0px) and (max-width: 475px) {
+    .servicios {
+    grid-template-columns: 1fr;}
+    
+}
+*/
+.btn btn-warning {
+    list-style: none;
+    text-decoration: rgb(44, 10, 10);
+
+}
+
+/*-----------------------------------------*/
+.pie {
+    margin-top: 370px;
+}
+.nosotros{
+    padding-top: 200px;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    text-decoration-color: rgb(20, 29, 29);
+}
+.nosotros h1 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+     text-decoration: rgb(25, 25, 53);
+}
+
+@keyframes aparecer {
+    0% {
+        color: rgb(228, 109, 66);
+        opacity: 0;
+    }
+    50% {
+        color: rgb(175, 54, 10);
+        opacity: 0.5;
+    }
+    100% {
+        color: rgb(10, 3, 0);
+        opacity: 1;
+    }
+}
+
+.nosotros {
+    animation-duration: 2s;
+    animation-name: aparecer;
+    animation-iteration-count: inherit;
+}
