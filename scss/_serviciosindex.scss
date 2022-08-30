@@ -1,0 +1,5 @@
+.botonservicio {
+    @extend .botonnosotros; 
+    background-color: white;
+    text-decoration: map-get($estilos,color);
+}
